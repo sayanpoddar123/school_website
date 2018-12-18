@@ -1,0 +1,130 @@
+.logo {
+	display: block;
+    margin-left: 75px;
+    margin-right: auto;
+    width: 50%;
+	top: 5%;
+	position: absolute;
+}
+
+header {
+	background-color: rgb(47, 85, 151);
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 0px;
+	height: 285px;
+}
+
+p1 {
+	font-family: Trebuchet MS;
+	color: white;
+	margin-left: 250px;
+	font-size: 45px;
+	padding-top: 500px;
+	margin-top: 50px;
+	position: relative;
+	top: 70px;
+}
+
+.sd {
+	color: white;
+	font-family: Trebuchet MS;
+    padding-top: 50px;
+	padding-left: 250px;
+	font-size: 30px;
+}
+
+li a {
+	text-decoration: none;
+	font-family: Helvetica;
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 16px;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-left: 35px;
+}
+
+.information {
+	color: white;
+	font-family: Trebuchet MS;
+	font-size: 17px;
+	display: block;
+	position: absolute;
+	top: 3%;
+	padding-left: 1535px;
+}
+
+.locations {
+	display: block;
+	position: absolute;
+	top: 8.5%;
+	padding-left: 1505px;
+}
+
+.pointer {
+	display: block;
+	position: absolute;
+	top: 4.5%;
+	padding-left: 1500px;
+}
+
+.changingimgs {
+	display: block;
+	position: absolute;
+	top: 50%;
+	padding-left: 500px;
+}
+
+.body {
+	background-color: rgb(170, 170, 170);
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 500px;
+	padding-top: 1px;
+	font-size: 1px;
+}
+
+.leftbluemenu {
+	background-color: rgb(47, 85, 151);
+	margin-left: 1500px;
+	margin-right: 35px;
+	height: 400px;
+}
+
+.belowbody {
+	background-color: rgb(230,236,248);
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 50px;
+	height: 400px;
+	padding-top: 1px;
+	font-size: 1px;
+}
+
+.ql {
+	font-family: Trebuchet MS;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	display: block;
+	position: absolute;
+	top: 30%;
+	width: 17%;
+}
+
+.hac {
+	font-size: 27px;
+	padding-top: 55px;
+	text-align: center;
+	font-family: Trebuchet MS;
+	color: white;
+	text-decoration: none;
+	display: block;
+	list-style-type: none;
+	margin: 0;
+}
+
+
+

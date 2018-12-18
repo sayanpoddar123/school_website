@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<title>DASD</title>
+	<meta charset="utf-8">
+		
+	<link rel="stylesheet" type="text/css" href="style.css">
+		
+	<script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 1000);
+          }
+
+          var images = [], x = -1;
+          images[0] = "images/reliance.jpg";
+          images[1] = "imag32.jpg";
+          images[2] = "image3.jpg";
+      </script>
+	
+	</head>
+
+	<body onload = "startTimer()">
+	<header>
+	<div class="logo">
+		<img src="images/DASD-medallion-small.png" alt="logo">
+	</div>	
+	
+	<div class="changingimgs">
+	     
+	</div>
+		
+	<p1><b>DALLASTOWN AREA</b></p1>
+	<div class="sd">
+	<p>School District</p>
+    </div>
+		
+	<div class="dropdowns">
+		<ul style="list-style: none;">
+		<li><a href="" style="color:#ffffff">Administration</a></li>
+		<li><a href="" style="color:#ffffff">Community</a></li>
+		<li><a href="" style="color:#ffffff">Curriculum</a></li>
+		<li><a href="" style="color:#ffffff">Departments</a></li>
+		<li><a href="" style="color:#ffffff">Schools</a></li>
+		<li><a href="" style="color:#ffffff">Organizations</a></li>
+	    <li><a href="" style="color:#ffffff">Human Resources</a></li>
+		<li><a href="" style="color:#ffffff">Our District</a></li>
+		<li><a href="" style="color:#ffffff">School Board</a></li>
+		
+		</ul>
+		
+	</div>
+		
+	<div class="information">
+	<p>700 School Lane, Dallastown, PA, 17313</p>
+	<p>717-244-4021</p>
+		
+	</div>
+		
+	<div class="locations">
+		<img src="images/phone.png" alt="phone" width="22px" height="30px">
+	</div>
+		
+	<div class="pointer">
+		<img src="images/pointer.png" alt="pointer" width="30px" height="30px">	
+	</div>
+	
+	</header>
+
+	<div class="body">
+		<p>test</p>
+		<div class="leftbluemenu">
+			<div class="ql">
+		   	 <p>Quick Links</p>	
+			</div>
+		
+			<div class="hac">
+				<p><a href="" style="color:#ffffff">Home Access Center</a></p>
+			
+			</div>
+		</div>
+		
+	<div class="belowbody">
+		<p>test2</p>
+		
+	</div>
+	</div>
+	
+	
+	
+	</body>
+</html>
